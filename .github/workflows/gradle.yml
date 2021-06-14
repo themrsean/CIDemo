@@ -31,4 +31,3 @@ jobs:
       uses: dbelyaev/action-checkstyle@v0.3.4
       with:
         checkstyle_config: https://faculty-web.msoe.edu/jones/MSOE_checkStyle.xml
-        checkstyle_version: 8.43
