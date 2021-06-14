@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'checkstyle'
 }
 
 group 'org.example'
@@ -16,4 +17,9 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+checkstyle {
+    config = resources.text.fromString('https://faculty-web.msoe.edu/jones/MSOE_checkStyle.xml')
+    toolVersion = 8.43
 }
