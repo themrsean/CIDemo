@@ -30,4 +30,5 @@ jobs:
   # uses: dbelyaev/action-checkstyle@43dcc28a2423458a93f4c304c1bb8b87c7307fc2
       uses: dbelyaev/action-checkstyle@v0.3.4
       with:
+        reporter: github-check
         checkstyle_config: https://faculty-web.msoe.edu/jones/MSOE_checkStyle.xml
