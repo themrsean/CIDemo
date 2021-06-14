@@ -21,7 +21,7 @@ public class Demo {
      * @return result of multiplying by 5
      */
     public static int multiplyByFive(int a) {
-        return a * 5;
+        return a * 6;
     }
 
     /**
